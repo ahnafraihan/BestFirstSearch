@@ -16,7 +16,7 @@ using namespace std;
 vector <int> optimalSolution; // initialize a global vector used to keep track of optimal solutions
 string output; // initialize a string to hold the name of our output text file
 
-/* reate a node structure that will be used to create our tree. Each node holds an integer to designate its current level, current profit, current weight, a float to identify its upper bound, and a vector k to keep track of its individual optimal solution state. We also implement an operator overload in order to compare nodes, specifically used by the priority queue. This operator compares nodes based on their bounds. */
+/* create a node structure that will be used to create our tree. Each node holds an integer to designate its current level, current profit, current weight, a float to identify its upper bound, and a vector k to keep track of its individual optimal solution state. We also implement an operator overload in order to compare nodes, specifically used by the priority queue. This operator compares nodes based on their bounds. */
 
 struct node {
     int level;
